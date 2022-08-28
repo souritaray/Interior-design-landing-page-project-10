@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?w=740&t=st=1658736372~exp=1658736972~hmac=311c3078c75c077f05413965e0086087aa07936d8a53d305cd8db53f76a2d4f4");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto';
+    color: #fff;
+    }
+nav{
+    display:flex;
+    margin-top: 30px;
+}
+.nav-left{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.nav-right{
+    display:flex;  
+    border-bottom: 2px solid #fff;
+    margin-left: 300px;
+    width:900px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.fa-bars{
+    display:none;
+}
+.nav-items{
+    display:flex; 
+    justify-content: space-between;
+    width:800px;
+    list-style-type: none; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.nav-left{
+    margin-left: 40px;
+}
+.contact{
+    display:flex; 
+    width: 400px;
+    margin-bottom: 20px;
+}
+section{
+    margin-left:40px ;
+}
+.content h1{
+    margin-top: 90px;
+    font-size:70px;
+}
+.content button{
+    height:48px;
+    width: 180px;
+    background: transparent;
+    color:#fff;
+    border-color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.puzzle{
+    position: absolute;
+    right:130px;
+    top:150px;
+    background-color: rgba(106, 122, 136, 0.3);
+    padding: 25px;
+}
+.Image{
+    background-color: #fff;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 8%;
+}
+.puzzle p{
+    width: 234px;
+}
+.bulb{
+    position: absolute;
+    right:500px;
+    bottom:65px;
+    background-color: rgba(106, 122, 136, 0.3);
+    padding: 25px;
+}
+.bulb p{
+    width: 200px;
+}
+.line1{
+    width: 2px;
+    height: 80px;
+    background-color: #fff; 
+    
+}
+.circle1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff; 
+    position: absolute;
+    left:-6px;
+}
+.shape1{
+    position: absolute;
+    right:202px;
+    top: 294px;
+}
+.line2{
+    width: 80px;
+    height: 2px;
+    background-color: #fff; 
+}
+.circle2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff; 
+    position: absolute;
+    left:80px;
+    bottom:-7px;
+}
+.shape2{
+    position: absolute;
+    right:419px;
+    bottom:154px;
+}
+@media only screen and (max-width:480px){
+    .nav-left{
+        width:100px;
+    }
+    .nav-left h2{
+        font-size: 15px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-right{
+       margin-left: 15px;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        width:200px;
+    }
+    .fa-bars{
+        display:block;
+        font-size: 25px;
+        margin-right: 15px;
+    }
+    .contact div img{
+        width:55px;
+    }
+    .contact div h3{
+        font-size:15px;
+    }
+    .content h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .puzzle{
+      width:200px;
+      position: absolute;
+        right:0;
+        top:250px;
+    }
+    .puzzle p{
+        font-size: 15px;
+        width:170px;
+    }
+    .bulb p{
+        font-size: 15px;
+        width:170px;
+    }
+    .bulb{
+        width:200px;
+      position: absolute;
+        left:0;
+        top:450px;
+    }
+    .shape1{
+        position: absolute;
+        top:65%;
+        right:20px;
+    }
+    .shape2{
+        position: absolute;
+        top:89%;
+        left:197px;
+        z-index: -1;
+    }
+}
+    @media only screen and (max-width:750px) and (min-width:490px){
+        .nav-items{
+            display: none;
+        }
+        .nav-right{
+           margin-left: 15px;
+           display: flex;
+           justify-content: center;
+           gap:150px;
+        }
+        .contact{
+            display: flex;
+            align-items: center;
+            width:200px;
+        }
+        .fa-bars{
+            display:block;
+            font-size: 25px;
+            margin-right: 15%;
+        }
+        .contact div img{
+            width:55px;
+        }
+        .contact div h3{
+            font-size:15px;
+        }
+        .content h1{
+            font-size: 24px;
+            margin-top: 0;
+        }
+        .content{
+            margin-top: 50px;
+        }
+        .puzzle{
+            width:200px;
+            position: absolute;
+              right:50px;
+              top:152px;
+          }
+          .puzzle p{
+              font-size: 15px;
+              width:170px;
+          }
+          .bulb p{
+              font-size: 15px;
+              width:170px;
+          }
+          .bulb{
+              width:200px;
+            position: absolute;
+              left:34px;
+              top:378px;
+          }
+          .shape1{
+            position: absolute;
+            top:51%;
+            right:87px;
+        }
+        .shape2{
+            position: absolute;
+            top:83%;
+            left:234px;
+            z-index: -1;
+        }
+    }
+    @media only screen and (max-width:1070px) and (min-width:760px){
+        .content h1{
+            font-size: 30px;
+        }
+        .nav-right{
+            margin-left: 50px;
+            display: flex;
+            flex-shrink: 1;
+        }
+        .nav-items{
+            width:400px;
+        }
+    }
+

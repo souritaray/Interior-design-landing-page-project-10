@@ -29,7 +29,8 @@ In this project I have got hands on experience on
 Approximately 2.5 to 3 hours.
 Additionally it took me about 2 hours to make the page responsive.
 
-
+## Live Link
+[Interior design Landing Page](https://interior-design-landingpg-souritaray.netlify.app/)
 
 ## Contact me on:
 
